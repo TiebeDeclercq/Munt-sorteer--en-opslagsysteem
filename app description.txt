@@ -1,0 +1,17 @@
+Deze app is een toevoeging op het muntsorteer- en opslagsysteem gemaakt door Ti3b3:
+
+Krijg een overzicht van al je kleingeld
+Kies hoeveel kleingeld je wilt uitwerpen
+Personaliseer je muntsorteerder tot je behoefte!
+
+MAXIMAAL AANTAL KLEINGELD INSTELLEN
+Wil je maar een maximaal aantal geld toelaten in het systeem? Geen probleem dit kan je allemaal instellen via deze app
+
+EEN EXACTE HOEVEELHEID KLEINGELD UITWERPEN
+Via deze app kan je een hoeveelheid ingeven en er zal berekent worden of dit mogelijk is en zal dan uitgeworpen worden!
+
+ZIT ER EEN PROBLEEM IN JE OPSTELLING?
+Je kan de waarden van je geldsysteem aanpassen als ze verkeerd gedecteerd zijn en ook je maximale waarden aanpassen!
+
+EEN ANDERE WERKINGSMODUS INSTELLEN?
+Je kan je werkingsmodus instellen via de app als je bevoorbeeld wilt dat hij enkel sorteert en niet opslaat of geluid maakt bij het uitwerpen.
