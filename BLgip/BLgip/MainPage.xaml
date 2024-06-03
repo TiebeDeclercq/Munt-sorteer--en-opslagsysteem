@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BLgip.MainPage">
+
+
+    <ScrollView x:Name="scrollView" >
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <!-- Label totaal aantal geld -->
+            <Label
+                Text="€15.32"
+                x:Name="lblTotaalAantal"
+                FontSize="40"
+                HorizontalOptions="Center" />
+
+            <!-- Knop om te verbinden met bluetooth -->
+            <Button
+                x:Name="btnVerbind"
+                Text="Verbind"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+
+            <!-- Connectie status label -->
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Label
+                    Text="ConnectieStatus: "
+                    x:Name="lblConnectieStatus"
+                
+                />
+                <Label
+                    Text="Niet verbonden"
+                    x:Name="lblConnectieStatusBold"
+                />
+            </HorizontalStackLayout>
+
+            <!-- Knop om te verbinden met bluetooth -->
+            <Button
+                x:Name="btnOverslaanVerbind"
+                Text="Overslaan"
+                Clicked="btnOverslaanVerbind_Clicked"
+                HorizontalOptions="Center"
+                WidthRequest="110"
+                IsVisible="False"/>
+
+            <!-- Met een entry bedrag kiezen om ui te werpen -->
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="15" x:Name="stklyUitwerpen">
+                <Label
+                    Text="€"
+                    VerticalOptions="Center"
+                    />
+                <Entry
+                    x:Name="entryBedrag"
+                    Placeholder="Geldbedrag"
+                    Keyboard="Numeric"
+                    HorizontalOptions="Center"
+                    TextChanged="entryBedrag_TextChanged"
+                />
+                <Button
+                    x:Name="btnUitwerpen"
+                    Text="Uitwerpen"
+                    HorizontalOptions="Center"
+                    Clicked="btnUitwerpen_Clicked"
+                />
+            </HorizontalStackLayout>
+
+
+            <!-- Alle knoppen om ui te werpen -->
+            <VerticalStackLayout x:Name="vtklyCoins">
+
+                <!-- 2 euro uitwerpen -->
+                <VerticalStackLayout x:Name="vtkl2eur">
+                    <HorizontalStackLayout>
+                        <Label
+                            Text="3x"
+                            VerticalTextAlignment="Center"
+                            x:Name="lblAantal2euro"
+                            Margin="0,0,10,0"
+                            />
+                        <Image
+                            Source="euro2.png"
+                            WidthRequest="60"
+                            />
+                        <Button
+                            x:Name="btnUitwerpen2euro"
+                            Margin="10,0,0,0"
+                            VerticalOptions="Center"
+                            Clicked="btnUitwerpen2euro_Clicked"
+                            Text="Uitwerpen"
+                            />
+                    </HorizontalStackLayout>
+                    <ProgressBar 
+                        x:Name="prgrs2euro"
+                        />
+                </VerticalStackLayout>
+
+                <!-- 1 euro uitwerpen -->
+                <VerticalStackLayout x:Name="vtkl1eur" >
+                    <HorizontalStackLayout>
+                        <Label
+                            Text="3x"
+                            VerticalTextAlignment="Center"
+                            x:Name="lblAantal1euro"
+                            Margin="0,0,10,0"
+                        />
+                        <Image
+                            Source="euro1.png"
+                            WidthRequest="60"
+                        />
+                        <Button
+                            x:Name="btnUitwerpen1euro"
+                            Margin="10,0,0,0"
+                            VerticalOptions="Center"
+                            Clicked="btnUitwerpen1euro_Clicked"
+                            Text="Uitwerpen"
+                        />
+                    </HorizontalStackLayout>
+                    <ProgressBar 
+                            x:Name="prgrs1euro"
+                            
+                    />
+                </VerticalStackLayout>
+
+                <!-- 50 cent uitwerpen -->
+                <VerticalStackLayout x:Name="vtkl50cent" >
+                    <HorizontalStackLayout>
+                        <Label
+                            Text="3x"
+                            VerticalTextAlignment="Center"
+                            x:Name="lblAantal50c"
+                            Margin="0,0,10,0"
+                        />
+                        <Image
+                            Source="c50.png"
+                            WidthRequest="60"
+                        />
+                        <Button
+                            x:Name="btnUitwerpen50c"
+                            Margin="10,0,0,0"
+                            VerticalOptions="Center"
+                            Clicked="btnUitwerpen50c_Clicked"
+                            Text="Uitwerpen"
+                        />
+                    </HorizontalStackLayout>
+                    <ProgressBar 
+                            x:Name="prgrs50c"
+                    />
+                </VerticalStackLayout>
+
+                <!-- 20 cent uitwerpen -->
+                <VerticalStackLayout x:Name="vtkl20cent" >
+                    <HorizontalStackLayout>
+                        <Label
+                            Text="3x"
+                            VerticalTextAlignment="Center"
+                            x:Name="lblAantal20c"
+                            Margin="0,0,10,0"
+                        />
+                        <Image
+                            Source="c20.png"
+                            WidthRequest="60"
+                        />
+                        <Button
+                            x:Name="btnUitwerpen20c"
+                            Margin="10,0,0,0"
+                            VerticalOptions="Center"
+                            Clicked="btnUitwerpen20c_Clicked"
+                            Text="Uitwerpen"
+                        />
+                    </HorizontalStackLayout>
+                    <ProgressBar 
+                            x:Name="prgrs20c"
+                    />
+                </VerticalStackLayout>
+
+                <!-- 10 cent uitwerpen -->
+                <VerticalStackLayout x:Name="vtkl10cent" >
+                    <HorizontalStackLayout>
+                        <Label
+                            Text="3x"
+                            VerticalTextAlignment="Center"
+                            x:Name="lblAantal10c"
+                            Margin="0,0,10,0"
+                        />
+                        <Image
+                            Source="c10.png"
+                            WidthRequest="60"
+                        />
+                        <Button
+                            x:Name="btnUitwerpen10c"
+                            Margin="10,0,0,0"
+                            VerticalOptions="Center"
+                            Clicked="btnUitwerpen10c_Clicked"
+                            Text="Uitwerpen"
+                        />
+                    </HorizontalStackLayout>
+                    <ProgressBar 
+                            x:Name="prgrs10c"
+                    />
+                </VerticalStackLayout>
+
+                <!-- 5 cent uitwerpen -->
+                <VerticalStackLayout x:Name="vtkl5cent">
+                    <HorizontalStackLayout>
+                        <Label
+                            Text="3x"
+                            VerticalTextAlignment="Center"
+                            x:Name="lblAantal5c"
+                            Margin="0,0,10,0"
+                        />
+                        <Image
+                            Source="c5.png"
+                            WidthRequest="60"
+                        />
+                        <Button
+                            x:Name="btnUitwerpen5c"
+                            Margin="10,0,0,0"
+                            VerticalOptions="Center"
+                            Clicked="btnUitwerpen5c_Clicked"
+                            Text="Uitwerpen"
+                        />
+                    </HorizontalStackLayout>
+                    <ProgressBar 
+                            x:Name="prgrs5c"
+                    />
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+
+
+            <!-- Hier komen de instellingen -->
+            <VerticalStackLayout Spacing="0" x:Name="vtrklyInstellingen" >
+
+                <Label Text="Instellingen" FontSize="20" FontAttributes="Bold"/>
+                
+                <!-- Knop om te verbinden met bluetooth -->
+                <Button x:Name="btnDisconnect" Text="Verbinding verbreken" Clicked="btnDisconnect_Clicked" HorizontalOptions="Center" Margin="0,20,0,0" />
+
+                <!-- Voor het geluid -->
+              <!--  <HorizontalStackLayout HorizontalOptions="Start">
+                    <CheckBox
+                        x:Name="chkGeluid"
+                        CheckedChanged="chkGeluid_CheckedChanged"
+                    />
+                    <Label
+                        Text="Geluid"
+                        VerticalTextAlignment="Center"
+                    />
+                </HorizontalStackLayout> -->
+
+
+
+                <!-- Voor je lcd -->
+                <HorizontalStackLayout HorizontalOptions="Start">
+                    <CheckBox
+                         x:Name="chkLCD"
+                         CheckedChanged="chkLCD_CheckedChanged"
+                        IsChecked="True"
+                    />
+                    <Label
+                        Text="Scherm"
+                        VerticalTextAlignment="Center"
+                    />
+                    <Entry x:Name="entryLCD" TextChanged="entryLCD_TextChanged"></Entry>
+                </HorizontalStackLayout>
+
+                <!-- Voor je werkingsModus --> 
+                <HorizontalStackLayout HorizontalOptions="Start">
+                    <CheckBox
+                        x:Name="chkNietsInlaten"
+                        CheckedChanged="chkNietsInlaten_CheckedChanged"
+                    />
+                    <Label
+                        Text="Sorteermodus"
+                        VerticalTextAlignment="Center"
+                    />
+                </HorizontalStackLayout>
+
+                <!-- Voor je knoppen -->
+                <HorizontalStackLayout HorizontalOptions="Start">
+                    <CheckBox
+                        x:Name="chkButtonsEnabled"
+                        CheckedChanged="chkButtonsEnabled_CheckedChanged"
+                        IsChecked="True"
+                    />
+                    <Label
+                        Text="Knoppen ingeschakeld"
+                        VerticalTextAlignment="Center"
+                    />
+                </HorizontalStackLayout>
+
+                <!-- Voor de debug modus -->
+                <HorizontalStackLayout HorizontalOptions="Start">
+                    <CheckBox
+                        x:Name="chkDebug"
+                        CheckedChanged="chkDebug_CheckedChanged"
+                    />
+                    <Label
+                        Text="Debug"
+                        VerticalTextAlignment="Center"
+                    />
+                </HorizontalStackLayout>
+
+                <!-- Om de snelheid van je sorter aan te passen -->
+             <!--==   <HorizontalStackLayout HorizontalOptions="Start">
+                    <Label
+                        Text="Snelheid sorter"
+                        VerticalTextAlignment="Center"
+                    />
+                    <Slider
+                        x:Name="sldrSorter"
+                        ValueChanged="sldrSorter_ValueChanged_1"
+                        HorizontalOptions="Fill"
+                        WidthRequest="200"
+                    />
+                </HorizontalStackLayout> -->
+
+            </VerticalStackLayout>
+
+            <!-- Debug menu -->
+            <VerticalStackLayout Spacing="20" x:Name="debugMenu">
+                <Label Text="Debug menu" FontSize="20" FontAttributes="Bold"/>
+                <HorizontalStackLayout Spacing="20">
+                    <Label Text="received data" x:Name="lblOntvangenData"/>
+                    <Label Text="Ontvangen"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="20" MaximumHeightRequest="50">
+                    <Label Text="3x" VerticalTextAlignment="Center" x:Name="lblAantal2euroDebug" Margin="0,0,10,0"/>
+                    <Image Source="euro2.png" WidthRequest="60"/>
+                    <Button Text="+" x:Name="btn2eurplus" Clicked="btn2eurplus_Clicked" HeightRequest="40"/>
+                    <Button Text="-" x:Name="btn2eurmin" Clicked="btn2eurmin_Clicked" HeightRequest="40"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="20" MaximumHeightRequest="50">
+                    <Label Text="3x" VerticalTextAlignment="Center" x:Name="lblAantal1euroDebug" Margin="0,0,10,0"/>
+                    <Image Source="euro1.png" WidthRequest="60"/>
+                    <Button Text="+" x:Name="btn1eurplus" Clicked="btn1eurplus_Clicked" HeightRequest="40"/>
+                    <Button Text="-" x:Name="btn1eurmin" Clicked="btn1eurmin_Clicked" HeightRequest="40"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="20" MaximumHeightRequest="50">
+                    <Label Text="3x" VerticalTextAlignment="Center" x:Name="lblAantal50cDebug" Margin="0,0,10,0"/>
+                    <Image Source="c50.png" WidthRequest="60"/>
+                    <Button Text="+" x:Name="btn50cplus" Clicked="btn50cplus_Clicked" HeightRequest="40"/>
+                    <Button Text="-" x:Name="btn50cmin" Clicked="btn50cmin_Clicked" HeightRequest="40"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="20" MaximumHeightRequest="50">
+                    <Label Text="3x" VerticalTextAlignment="Center" x:Name="lblAantal20cDebug" Margin="0,0,10,0"/>
+                    <Image Source="c20.png" WidthRequest="60"/>
+                    <Button Text="+" x:Name="btn20cplus" Clicked="btn20cplus_Clicked" HeightRequest="40"/>
+                    <Button Text="-" x:Name="btn20cmin" Clicked="btn20cmin_Clicked" HeightRequest="40"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="20" MaximumHeightRequest="50">
+                    <Label Text="3x" VerticalTextAlignment="Center" x:Name="lblAantal10cDebug" Margin="0,0,10,0"/>
+                    <Image Source="c10.png" WidthRequest="60"/>
+                    <Button Text="+" x:Name="btn10cplus" Clicked="btn10cplus_Clicked" HeightRequest="40"/>
+                    <Button Text="-" x:Name="btn10cmin" Clicked="btn10cmin_Clicked" HeightRequest="40"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="20" MaximumHeightRequest="50">
+                    <Label Text="3x" VerticalTextAlignment="Center" x:Name="lblAantal5cDebug" Margin="0,0,10,0"/>
+                    <Image Source="c5.png" WidthRequest="60"/>
+                    <Button Text="+" x:Name="btn5cplus" Clicked="btn5cplus_Clicked" HeightRequest="40"/>
+                    <Button Text="-" x:Name="btn5cmin" Clicked="btn5cmin_Clicked" HeightRequest="40"/>
+                </HorizontalStackLayout>
+                
+                
+                <HorizontalStackLayout Spacing="20">
+                    <Label Text="Max 5 cent: " VerticalOptions="Center" x:Name="lblMax5c"/>
+                    <Button Text="+" x:Name="btn5cMaxPlus" Clicked="btn5cMaxPlus_Clicked"/>
+                    <Button Text="-" x:Name="btn5cMaxMin" Clicked="btn5cMaxMin_Clicked"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="20">
+                    <Label Text="Max 10 cent: " VerticalOptions="Center" x:Name="lblMax10c"/>
+                    <Button Text="+" x:Name="btn10cMaxPlus" Clicked="btn10cMaxPlus_Clicked"/>
+                    <Button Text="-" x:Name="btn10cMaxMin" Clicked="btn10cMaxMin_Clicked"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="20">
+                    <Label Text="Max 20 cent: " VerticalOptions="Center" x:Name="lblMax20c"/>
+                    <Button Text="+" x:Name="btn20cMaxPlus" Clicked="btn20cMaxPlus_Clicked"/>
+                    <Button Text="-" x:Name="btn20cMaxMin" Clicked="btn20cMaxMin_Clicked"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="20">
+                    <Label Text="Max 50 cent: " VerticalOptions="Center" x:Name="lblMax50c"/>
+                    <Button Text="+" x:Name="btn50cMaxPlus" Clicked="btn50cMaxPlus_Clicked"/>
+                    <Button Text="-" x:Name="btn50cMaxMin" Clicked="btn50cMaxMin_Clicked"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="20">
+                    <Label Text="Max 1 euro: " VerticalOptions="Center" x:Name="lblMax1euro"/>
+                    <Button Text="+" x:Name="btn1eurMaxPlus" Clicked="btn1eurMaxPlus_Clicked"/>
+                    <Button Text="-" x:Name="btn1eurMaxMin" Clicked="btn1eurMaxMin_Clicked"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="20">
+                    <Label Text="Max 2 euro: " VerticalOptions="Center" x:Name="lblMax2euro"/>
+                    <Button Text="+" x:Name="btn2euroMaxPlus" Clicked="btn2euroMaxPlus_Clicked"/>
+                    <Button Text="-" x:Name="btn2euroMaxMin" Clicked="btn2euroMaxMin_Clicked"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+
+            <!-- Benenden aande pagina copyright -->
+            <Label
+                Text="©Tiebe Declercq 2024"
+                HorizontalOptions="Center"
+                />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

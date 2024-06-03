@@ -1,0 +1,1 @@
+C:\Users\tiebe\Desktop\Electronics\GIP_Coin_Counter\BLgip\BLgip\BLgip.csproj;x64

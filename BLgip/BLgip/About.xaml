@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BLgip.About"
+             Title="About">
+    <!-- First Tab -->
+    <ContentPage Title="First Tab">
+        <ScrollView>
+            <!-- Your existing content for the first tab goes here -->
+            <VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Center">
+                <Label Text="Content for the First Tab" FontSize="20" HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    <!-- Second Tab -->
+    <ContentPage Title="Second Tab">
+        <ScrollView>
+            <!-- Content for the second tab -->
+            <VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Center">
+                <Label Text="Hello, World!" FontSize="20" HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>

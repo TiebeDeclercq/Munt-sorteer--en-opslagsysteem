@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <BundleResource Include="C:\Users\tiebe\Desktop\Electronics\GIP_Coin_Counter\BLgip\BLgip\obj\Release\net7.0-maccatalyst\resizetizer\r\dotnet_bot.png" />
+    <BundleResource Include="C:\Users\tiebe\Desktop\Electronics\GIP_Coin_Counter\BLgip\BLgip\obj\Release\net7.0-maccatalyst\resizetizer\r\dotnet_bot@2x.png" />
+    <BundleResource Include="C:\Users\tiebe\Desktop\Electronics\GIP_Coin_Counter\BLgip\BLgip\obj\Release\net7.0-maccatalyst\resizetizer\r\dotnet_bot@3x.png" />
+    <BundleResource Include="C:\Users\tiebe\Desktop\Electronics\GIP_Coin_Counter\BLgip\BLgip\obj\Release\net7.0-maccatalyst\resizetizer\r\euro2c.png" />
+    <BundleResource Include="C:\Users\tiebe\Desktop\Electronics\GIP_Coin_Counter\BLgip\BLgip\obj\Release\net7.0-maccatalyst\resizetizer\r\euro2c@2x.png" />
+    <BundleResource Include="C:\Users\tiebe\Desktop\Electronics\GIP_Coin_Counter\BLgip\BLgip\obj\Release\net7.0-maccatalyst\resizetizer\r\euro2c@3x.png" />
+    <BundleResource Include="C:\Users\tiebe\Desktop\Electronics\GIP_Coin_Counter\BLgip\BLgip\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\c10.png" />
+    <BundleResource Include="C:\Users\tiebe\Desktop\Electronics\GIP_Coin_Counter\BLgip\BLgip\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\c20.png" />
+    <BundleResource Include="C:\Users\tiebe\Desktop\Electronics\GIP_Coin_Counter\BLgip\BLgip\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\c5.png" />
+    <BundleResource Include="C:\Users\tiebe\Desktop\Electronics\GIP_Coin_Counter\BLgip\BLgip\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\c50.png" />
+    <BundleResource Include="C:\Users\tiebe\Desktop\Electronics\GIP_Coin_Counter\BLgip\BLgip\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\euro1.png" />
+    <BundleResource Include="C:\Users\tiebe\Desktop\Electronics\GIP_Coin_Counter\BLgip\BLgip\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\euro2.png" />
+    <BundleResource Include="C:\Users\tiebe\Desktop\Electronics\GIP_Coin_Counter\BLgip\BLgip\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\euro2ds.jpeg" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\OpenSans-Regular.ttf" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\OpenSans-Semibold.ttf" />
+  </ItemGroup>
+</Project>

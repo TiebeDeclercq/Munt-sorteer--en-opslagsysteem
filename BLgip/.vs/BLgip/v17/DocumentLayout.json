@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tiebe\\Desktop\\Electronics\\GIP_Coin_Counter\\BLgip\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C92F6A82-F6D6-41D1-848B-B23BE3F051DC}|BLgip\\BLgip.csproj|c:\\users\\tiebe\\desktop\\electronics\\gip_coin_counter\\blgip\\blgip\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92F6A82-F6D6-41D1-848B-B23BE3F051DC}|BLgip\\BLgip.csproj|solutionrelative:blgip\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92F6A82-F6D6-41D1-848B-B23BE3F051DC}|BLgip\\BLgip.csproj|c:\\users\\tiebe\\desktop\\electronics\\gip_coin_counter\\blgip\\blgip\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92F6A82-F6D6-41D1-848B-B23BE3F051DC}|BLgip\\BLgip.csproj|solutionrelative:blgip\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92F6A82-F6D6-41D1-848B-B23BE3F051DC}|BLgip\\BLgip.csproj|c:\\users\\tiebe\\desktop\\electronics\\gip_coin_counter\\blgip\\blgip\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C92F6A82-F6D6-41D1-848B-B23BE3F051DC}|BLgip\\BLgip.csproj|solutionrelative:blgip\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92F6A82-F6D6-41D1-848B-B23BE3F051DC}|BLgip\\BLgip.csproj|c:\\users\\tiebe\\desktop\\electronics\\gip_coin_counter\\blgip\\blgip\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{C92F6A82-F6D6-41D1-848B-B23BE3F051DC}|BLgip\\BLgip.csproj|solutionrelative:blgip\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92F6A82-F6D6-41D1-848B-B23BE3F051DC}|BLgip\\BLgip.csproj|c:\\users\\tiebe\\desktop\\electronics\\gip_coin_counter\\blgip\\blgip\\blgip.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C92F6A82-F6D6-41D1-848B-B23BE3F051DC}|BLgip\\BLgip.csproj|solutionrelative:blgip\\blgip.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.iOS.Sdk\\16.4.7129\\targets\\Xamarin.Shared.Sdk.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.RuntimeIdentifierInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 388,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BLgip",
+              "DocumentMoniker": "C:\\Users\\tiebe\\Desktop\\Electronics\\GIP_Coin_Counter\\BLgip\\BLgip\\BLgip.csproj",
+              "RelativeDocumentMoniker": "BLgip\\BLgip.csproj",
+              "ToolTip": "C:\\Users\\tiebe\\Desktop\\Electronics\\GIP_Coin_Counter\\BLgip\\BLgip\\BLgip.csproj",
+              "RelativeToolTip": "BLgip\\BLgip.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-17T12:55:49.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tiebe\\Desktop\\Electronics\\GIP_Coin_Counter\\BLgip\\BLgip\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "BLgip\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\tiebe\\Desktop\\Electronics\\GIP_Coin_Counter\\BLgip\\BLgip\\MainPage.xaml.cs",
+              "RelativeToolTip": "BLgip\\MainPage.xaml.cs",
+              "ViewState": "AQIAAHoCAAAAAAAAAAAAAKECAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T11:01:47.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\tiebe\\Desktop\\Electronics\\GIP_Coin_Counter\\BLgip\\BLgip\\MainPage.xaml",
+              "RelativeDocumentMoniker": "BLgip\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\tiebe\\Desktop\\Electronics\\GIP_Coin_Counter\\BLgip\\BLgip\\MainPage.xaml",
+              "RelativeToolTip": "BLgip\\MainPage.xaml",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAPcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-25T11:01:47.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "C:\\Users\\tiebe\\Desktop\\Electronics\\GIP_Coin_Counter\\BLgip\\BLgip\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "BLgip\\Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "C:\\Users\\tiebe\\Desktop\\Electronics\\GIP_Coin_Counter\\BLgip\\BLgip\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "BLgip\\Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T11:01:47.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\tiebe\\Desktop\\Electronics\\GIP_Coin_Counter\\BLgip\\BLgip\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "BLgip\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\tiebe\\Desktop\\Electronics\\GIP_Coin_Counter\\BLgip\\BLgip\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "BLgip\\Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-04T17:57:18.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Xamarin.Shared.Sdk.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.iOS.Sdk\\16.4.7129\\targets\\Xamarin.Shared.Sdk.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.iOS.Sdk\\16.4.7129\\targets\\Xamarin.Shared.Sdk.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.iOS.Sdk\\16.4.7129\\targets\\Xamarin.Shared.Sdk.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.iOS.Sdk\\16.4.7129\\targets\\Xamarin.Shared.Sdk.targets",
+              "ViewState": "AQIAAOUCAAAAAAAAAAAhwPoCAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-04-21T18:09:36.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Microsoft.NET.RuntimeIdentifierInference.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.RuntimeIdentifierInference.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.RuntimeIdentifierInference.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.RuntimeIdentifierInference.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.RuntimeIdentifierInference.targets",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-01-09T20:57:19.685Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 12,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
