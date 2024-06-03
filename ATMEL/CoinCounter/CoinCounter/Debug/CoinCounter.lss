@@ -1,0 +1,728 @@
+
+CoinCounter.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000058  00800100  0000043e  000004d2  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         0000043e  00000000  00000000  00000094  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .bss          00000016  00800158  00800158  0000052a  2**0
+                  ALLOC
+  3 .comment      00000030  00000000  00000000  0000052a  2**0
+                  CONTENTS, READONLY
+  4 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  0000055c  2**2
+                  CONTENTS, READONLY
+  5 .debug_aranges 000000a8  00000000  00000000  0000059c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_info   000017b8  00000000  00000000  00000644  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_abbrev 000009c4  00000000  00000000  00001dfc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_line   000008d8  00000000  00000000  000027c0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_frame  000001d8  00000000  00000000  00003098  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_str    00000702  00000000  00000000  00003270  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_loc    00000746  00000000  00000000  00003972  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges 00000098  00000000  00000000  000040b8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__ctors_end>
+   4:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+   8:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+   c:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  10:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  14:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  18:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  1c:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  20:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  24:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  28:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  2c:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  30:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  34:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  38:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  3c:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  40:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  44:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  48:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  4c:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  50:	0c 94 ad 01 	jmp	0x35a	; 0x35a <__vector_20>
+  54:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  58:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  5c:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  60:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  64:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  68:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  6c:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  70:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  74:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+  78:	0c 94 5b 00 	jmp	0xb6	; 0xb6 <__bad_interrupt>
+
+0000007c <__ctors_end>:
+  7c:	11 24       	eor	r1, r1
+  7e:	1f be       	out	0x3f, r1	; 63
+  80:	cf ef       	ldi	r28, 0xFF	; 255
+  82:	d8 e0       	ldi	r29, 0x08	; 8
+  84:	de bf       	out	0x3e, r29	; 62
+  86:	cd bf       	out	0x3d, r28	; 61
+
+00000088 <__do_copy_data>:
+  88:	11 e0       	ldi	r17, 0x01	; 1
+  8a:	a0 e0       	ldi	r26, 0x00	; 0
+  8c:	b1 e0       	ldi	r27, 0x01	; 1
+  8e:	ee e3       	ldi	r30, 0x3E	; 62
+  90:	f4 e0       	ldi	r31, 0x04	; 4
+  92:	02 c0       	rjmp	.+4      	; 0x98 <__do_copy_data+0x10>
+  94:	05 90       	lpm	r0, Z+
+  96:	0d 92       	st	X+, r0
+  98:	a8 35       	cpi	r26, 0x58	; 88
+  9a:	b1 07       	cpc	r27, r17
+  9c:	d9 f7       	brne	.-10     	; 0x94 <__do_copy_data+0xc>
+
+0000009e <__do_clear_bss>:
+  9e:	21 e0       	ldi	r18, 0x01	; 1
+  a0:	a8 e5       	ldi	r26, 0x58	; 88
+  a2:	b1 e0       	ldi	r27, 0x01	; 1
+  a4:	01 c0       	rjmp	.+2      	; 0xa8 <.do_clear_bss_start>
+
+000000a6 <.do_clear_bss_loop>:
+  a6:	1d 92       	st	X+, r1
+
+000000a8 <.do_clear_bss_start>:
+  a8:	ae 36       	cpi	r26, 0x6E	; 110
+  aa:	b2 07       	cpc	r27, r18
+  ac:	e1 f7       	brne	.-8      	; 0xa6 <.do_clear_bss_loop>
+  ae:	0e 94 48 01 	call	0x290	; 0x290 <main>
+  b2:	0c 94 1d 02 	jmp	0x43a	; 0x43a <_exit>
+
+000000b6 <__bad_interrupt>:
+  b6:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+000000ba <USART_Init>:
+void lcd_Init(LiquidCrystalDevice_t lcd){
+	lq_turnOnBacklight(&lcd); // simply turning on the backlight
+	lq_print(&lcd, "GIP");
+	lq_setCursor(&lcd, 1, 0); // moving cursor to the next line
+	lq_print(&lcd, "Tiebe Declercq");
+}
+  ba:	87 e1       	ldi	r24, 0x17	; 23
+  bc:	90 e0       	ldi	r25, 0x00	; 0
+  be:	90 93 c5 00 	sts	0x00C5, r25	; 0x8000c5 <__TEXT_REGION_LENGTH__+0x7f80c5>
+  c2:	80 93 c4 00 	sts	0x00C4, r24	; 0x8000c4 <__TEXT_REGION_LENGTH__+0x7f80c4>
+  c6:	e2 ec       	ldi	r30, 0xC2	; 194
+  c8:	f0 e0       	ldi	r31, 0x00	; 0
+  ca:	80 81       	ld	r24, Z
+  cc:	86 60       	ori	r24, 0x06	; 6
+  ce:	80 83       	st	Z, r24
+  d0:	e1 ec       	ldi	r30, 0xC1	; 193
+  d2:	f0 e0       	ldi	r31, 0x00	; 0
+  d4:	80 81       	ld	r24, Z
+  d6:	88 61       	ori	r24, 0x18	; 24
+  d8:	80 83       	st	Z, r24
+  da:	80 81       	ld	r24, Z
+  dc:	80 68       	ori	r24, 0x80	; 128
+  de:	80 83       	st	Z, r24
+  e0:	78 94       	sei
+  e2:	08 95       	ret
+
+000000e4 <USART_Transmit_Char>:
+  e4:	90 91 c0 00 	lds	r25, 0x00C0	; 0x8000c0 <__TEXT_REGION_LENGTH__+0x7f80c0>
+  e8:	95 ff       	sbrs	r25, 5
+  ea:	fc cf       	rjmp	.-8      	; 0xe4 <USART_Transmit_Char>
+  ec:	80 93 c6 00 	sts	0x00C6, r24	; 0x8000c6 <__TEXT_REGION_LENGTH__+0x7f80c6>
+  f0:	08 95       	ret
+
+000000f2 <USART_Transmit_String>:
+  f2:	0f 93       	push	r16
+  f4:	1f 93       	push	r17
+  f6:	cf 93       	push	r28
+  f8:	df 93       	push	r29
+  fa:	8c 01       	movw	r16, r24
+  fc:	c0 e0       	ldi	r28, 0x00	; 0
+  fe:	d0 e0       	ldi	r29, 0x00	; 0
+ 100:	09 c0       	rjmp	.+18     	; 0x114 <USART_Transmit_String+0x22>
+ 102:	f8 01       	movw	r30, r16
+ 104:	ec 0f       	add	r30, r28
+ 106:	fd 1f       	adc	r31, r29
+ 108:	80 81       	ld	r24, Z
+ 10a:	88 23       	and	r24, r24
+ 10c:	31 f0       	breq	.+12     	; 0x11a <USART_Transmit_String+0x28>
+ 10e:	21 96       	adiw	r28, 0x01	; 1
+ 110:	0e 94 72 00 	call	0xe4	; 0xe4 <USART_Transmit_Char>
+ 114:	c0 34       	cpi	r28, 0x40	; 64
+ 116:	d1 05       	cpc	r29, r1
+ 118:	a4 f3       	brlt	.-24     	; 0x102 <USART_Transmit_String+0x10>
+ 11a:	df 91       	pop	r29
+ 11c:	cf 91       	pop	r28
+ 11e:	1f 91       	pop	r17
+ 120:	0f 91       	pop	r16
+ 122:	08 95       	ret
+
+00000124 <geld_Aantal_Uitwerpen>:
+ 124:	02 c0       	rjmp	.+4      	; 0x12a <geld_Aantal_Uitwerpen+0x6>
+ 126:	88 5c       	subi	r24, 0xC8	; 200
+ 128:	91 09       	sbc	r25, r1
+ 12a:	88 3c       	cpi	r24, 0xC8	; 200
+ 12c:	91 05       	cpc	r25, r1
+ 12e:	dc f7       	brge	.-10     	; 0x126 <geld_Aantal_Uitwerpen+0x2>
+ 130:	02 c0       	rjmp	.+4      	; 0x136 <geld_Aantal_Uitwerpen+0x12>
+ 132:	84 56       	subi	r24, 0x64	; 100
+ 134:	91 09       	sbc	r25, r1
+ 136:	84 36       	cpi	r24, 0x64	; 100
+ 138:	91 05       	cpc	r25, r1
+ 13a:	dc f7       	brge	.-10     	; 0x132 <geld_Aantal_Uitwerpen+0xe>
+ 13c:	01 c0       	rjmp	.+2      	; 0x140 <geld_Aantal_Uitwerpen+0x1c>
+ 13e:	c2 97       	sbiw	r24, 0x32	; 50
+ 140:	82 33       	cpi	r24, 0x32	; 50
+ 142:	91 05       	cpc	r25, r1
+ 144:	e4 f7       	brge	.-8      	; 0x13e <geld_Aantal_Uitwerpen+0x1a>
+ 146:	01 c0       	rjmp	.+2      	; 0x14a <geld_Aantal_Uitwerpen+0x26>
+ 148:	44 97       	sbiw	r24, 0x14	; 20
+ 14a:	84 31       	cpi	r24, 0x14	; 20
+ 14c:	91 05       	cpc	r25, r1
+ 14e:	e4 f7       	brge	.-8      	; 0x148 <geld_Aantal_Uitwerpen+0x24>
+ 150:	01 c0       	rjmp	.+2      	; 0x154 <geld_Aantal_Uitwerpen+0x30>
+ 152:	0a 97       	sbiw	r24, 0x0a	; 10
+ 154:	8a 30       	cpi	r24, 0x0A	; 10
+ 156:	91 05       	cpc	r25, r1
+ 158:	e4 f7       	brge	.-8      	; 0x152 <geld_Aantal_Uitwerpen+0x2e>
+ 15a:	01 c0       	rjmp	.+2      	; 0x15e <geld_Aantal_Uitwerpen+0x3a>
+ 15c:	05 97       	sbiw	r24, 0x05	; 5
+ 15e:	85 30       	cpi	r24, 0x05	; 5
+ 160:	91 05       	cpc	r25, r1
+ 162:	e4 f7       	brge	.-8      	; 0x15c <geld_Aantal_Uitwerpen+0x38>
+ 164:	08 95       	ret
+
+00000166 <servo_Init>:
+
+//HET INITIALISEREN VAN DE SERVO
+void servo_Init(void){
+	TCCR1A|=((1<<COM1A1)|(1<<COM1B1)|(1<<WGM11)); //NON Inverted PWM
+ 166:	e0 e8       	ldi	r30, 0x80	; 128
+ 168:	f0 e0       	ldi	r31, 0x00	; 0
+ 16a:	80 81       	ld	r24, Z
+ 16c:	82 6a       	ori	r24, 0xA2	; 162
+ 16e:	80 83       	st	Z, r24
+	TCCR1B|=((1<<WGM13)|(1<<WGM12)|(1<<CS11)|(1<<CS10)); //PRESCALER=1 MODE 14(FAST PWM)
+ 170:	e1 e8       	ldi	r30, 0x81	; 129
+ 172:	f0 e0       	ldi	r31, 0x00	; 0
+ 174:	80 81       	ld	r24, Z
+ 176:	8b 61       	ori	r24, 0x1B	; 27
+ 178:	80 83       	st	Z, r24
+	ICR1=1151; //20ms periode
+ 17a:	8f e7       	ldi	r24, 0x7F	; 127
+ 17c:	94 e0       	ldi	r25, 0x04	; 4
+ 17e:	90 93 87 00 	sts	0x0087, r25	; 0x800087 <__TEXT_REGION_LENGTH__+0x7f8087>
+ 182:	80 93 86 00 	sts	0x0086, r24	; 0x800086 <__TEXT_REGION_LENGTH__+0x7f8086>
+	DDRD|=((1<<DDRD4)|(1<<DDRD5)); //PWM Pins as Out
+ 186:	8a b1       	in	r24, 0x0a	; 10
+ 188:	80 63       	ori	r24, 0x30	; 48
+ 18a:	8a b9       	out	0x0a, r24	; 10
+ 18c:	08 95       	ret
+
+0000018e <shift_Init>:
+}
+
+void shift_Init(void){
+	 //Make the Data(DS), Shift clock (SH_CP), Store Clock (ST_CP) lines output
+	 HC595_DDR|=((1<<HC595_SH_CP_POS)|(1<<HC595_ST_CP_POS)|(1<<HC595_DS_POS));
+ 18e:	87 b1       	in	r24, 0x07	; 7
+ 190:	8c 61       	ori	r24, 0x1C	; 28
+ 192:	87 b9       	out	0x07, r24	; 7
+ 194:	08 95       	ret
+
+00000196 <shiftPulse>:
+
+//Sends a clock pulse on SH_CP line
+void shiftPulse()
+{
+	//Pulse the Shift Clock
+	HC595_PORT|=(1<<HC595_SH_CP_POS);//HIGH
+ 196:	88 b1       	in	r24, 0x08	; 8
+ 198:	88 60       	ori	r24, 0x08	; 8
+ 19a:	88 b9       	out	0x08, r24	; 8
+	HC595_PORT&=(~(1<<HC595_SH_CP_POS));//LOW
+ 19c:	88 b1       	in	r24, 0x08	; 8
+ 19e:	87 7f       	andi	r24, 0xF7	; 247
+ 1a0:	88 b9       	out	0x08, r24	; 8
+ 1a2:	08 95       	ret
+
+000001a4 <shiftLatch>:
+
+//Sends a clock pulse on ST_CP line
+void shiftLatch()
+{
+	//Pulse the Store Clock
+	HC595_PORT|=(1<<HC595_ST_CP_POS);//HIGH
+ 1a4:	88 b1       	in	r24, 0x08	; 8
+ 1a6:	80 61       	ori	r24, 0x10	; 16
+ 1a8:	88 b9       	out	0x08, r24	; 8
+    can be achieved.
+*/
+void
+_delay_loop_1(uint8_t __count)
+{
+	__asm__ volatile (
+ 1aa:	81 e0       	ldi	r24, 0x01	; 1
+ 1ac:	98 2f       	mov	r25, r24
+ 1ae:	9a 95       	dec	r25
+ 1b0:	f1 f7       	brne	.-4      	; 0x1ae <shiftLatch+0xa>
+	_delay_loop_1(1);
+	HC595_PORT&=(~(1<<HC595_ST_CP_POS));//LOW
+ 1b2:	98 b1       	in	r25, 0x08	; 8
+ 1b4:	9f 7e       	andi	r25, 0xEF	; 239
+ 1b6:	98 b9       	out	0x08, r25	; 8
+ 1b8:	8a 95       	dec	r24
+ 1ba:	f1 f7       	brne	.-4      	; 0x1b8 <shiftLatch+0x14>
+ 1bc:	08 95       	ret
+
+000001be <shiftWrite>:
+	_delay_loop_1(1);
+}
+
+void shiftWrite(uint8_t data)
+{
+ 1be:	cf 93       	push	r28
+ 1c0:	df 93       	push	r29
+ 1c2:	d8 2f       	mov	r29, r24
+	//Send each 8 bits serially
+	//Order is MSB first
+	for(uint8_t i=0;i<8;i++)
+ 1c4:	c0 e0       	ldi	r28, 0x00	; 0
+ 1c6:	0d c0       	rjmp	.+26     	; 0x1e2 <shiftWrite+0x24>
+	{
+		//Output the data on DS line according to the
+		//Value of MSB
+		if(data & 0b10000000)
+ 1c8:	dd 23       	and	r29, r29
+ 1ca:	24 f4       	brge	.+8      	; 0x1d4 <shiftWrite+0x16>
+		{
+			//MSB is 1 so output high
+			HC595DataHigh();
+ 1cc:	88 b1       	in	r24, 0x08	; 8
+ 1ce:	84 60       	ori	r24, 0x04	; 4
+ 1d0:	88 b9       	out	0x08, r24	; 8
+ 1d2:	03 c0       	rjmp	.+6      	; 0x1da <shiftWrite+0x1c>
+		}
+		else
+		{
+			//MSB is 0 so output high
+			HC595DataLow();
+ 1d4:	88 b1       	in	r24, 0x08	; 8
+ 1d6:	8b 7f       	andi	r24, 0xFB	; 251
+ 1d8:	88 b9       	out	0x08, r24	; 8
+		}
+		shiftPulse();  //Pulse the Clock line
+ 1da:	0e 94 cb 00 	call	0x196	; 0x196 <shiftPulse>
+		data=data<<1;  //Now bring next bit at MSB position
+ 1de:	dd 0f       	add	r29, r29
+
+void shiftWrite(uint8_t data)
+{
+	//Send each 8 bits serially
+	//Order is MSB first
+	for(uint8_t i=0;i<8;i++)
+ 1e0:	cf 5f       	subi	r28, 0xFF	; 255
+ 1e2:	c8 30       	cpi	r28, 0x08	; 8
+ 1e4:	88 f3       	brcs	.-30     	; 0x1c8 <shiftWrite+0xa>
+		shiftPulse();  //Pulse the Clock line
+		data=data<<1;  //Now bring next bit at MSB position
+	}
+	//Now all 8 bits have been transferred to shift register
+	//Move them to output latch at one
+	shiftLatch();
+ 1e6:	0e 94 d2 00 	call	0x1a4	; 0x1a4 <shiftLatch>
+}
+ 1ea:	df 91       	pop	r29
+ 1ec:	cf 91       	pop	r28
+ 1ee:	08 95       	ret
+
+000001f0 <geld_Uitwerpen>:
+	}
+}
+
+//Het uitwerpen van geld
+void geld_Uitwerpen(int geldBedrag){
+	switch(geldBedrag){
+ 1f0:	85 30       	cpi	r24, 0x05	; 5
+ 1f2:	91 05       	cpc	r25, r1
+ 1f4:	a1 f0       	breq	.+40     	; 0x21e <geld_Uitwerpen+0x2e>
+ 1f6:	34 f4       	brge	.+12     	; 0x204 <geld_Uitwerpen+0x14>
+ 1f8:	81 30       	cpi	r24, 0x01	; 1
+ 1fa:	91 05       	cpc	r25, r1
+ 1fc:	d1 f0       	breq	.+52     	; 0x232 <geld_Uitwerpen+0x42>
+ 1fe:	02 97       	sbiw	r24, 0x02	; 2
+ 200:	11 f1       	breq	.+68     	; 0x246 <geld_Uitwerpen+0x56>
+ 202:	25 c0       	rjmp	.+74     	; 0x24e <geld_Uitwerpen+0x5e>
+ 204:	84 31       	cpi	r24, 0x14	; 20
+ 206:	91 05       	cpc	r25, r1
+ 208:	79 f0       	breq	.+30     	; 0x228 <geld_Uitwerpen+0x38>
+ 20a:	82 33       	cpi	r24, 0x32	; 50
+ 20c:	91 05       	cpc	r25, r1
+ 20e:	b1 f0       	breq	.+44     	; 0x23c <geld_Uitwerpen+0x4c>
+ 210:	0a 97       	sbiw	r24, 0x0a	; 10
+ 212:	e9 f4       	brne	.+58     	; 0x24e <geld_Uitwerpen+0x5e>
+		case 10:
+			shiftWrite(0b00000001);
+ 214:	81 e0       	ldi	r24, 0x01	; 1
+ 216:	90 e0       	ldi	r25, 0x00	; 0
+ 218:	0e 94 df 00 	call	0x1be	; 0x1be <shiftWrite>
+			break;
+ 21c:	18 c0       	rjmp	.+48     	; 0x24e <geld_Uitwerpen+0x5e>
+		case 5:
+			shiftWrite(0b00000010);
+ 21e:	82 e0       	ldi	r24, 0x02	; 2
+ 220:	90 e0       	ldi	r25, 0x00	; 0
+ 222:	0e 94 df 00 	call	0x1be	; 0x1be <shiftWrite>
+			break;
+ 226:	13 c0       	rjmp	.+38     	; 0x24e <geld_Uitwerpen+0x5e>
+		case 20:
+			shiftWrite(0b00000100);
+ 228:	84 e0       	ldi	r24, 0x04	; 4
+ 22a:	90 e0       	ldi	r25, 0x00	; 0
+ 22c:	0e 94 df 00 	call	0x1be	; 0x1be <shiftWrite>
+			break;
+ 230:	0e c0       	rjmp	.+28     	; 0x24e <geld_Uitwerpen+0x5e>
+		case 1:
+			shiftWrite(0b00001000);
+ 232:	88 e0       	ldi	r24, 0x08	; 8
+ 234:	90 e0       	ldi	r25, 0x00	; 0
+ 236:	0e 94 df 00 	call	0x1be	; 0x1be <shiftWrite>
+			break;
+ 23a:	09 c0       	rjmp	.+18     	; 0x24e <geld_Uitwerpen+0x5e>
+		case 50:
+			shiftWrite(0b00010000);
+ 23c:	80 e1       	ldi	r24, 0x10	; 16
+ 23e:	90 e0       	ldi	r25, 0x00	; 0
+ 240:	0e 94 df 00 	call	0x1be	; 0x1be <shiftWrite>
+			break;
+ 244:	04 c0       	rjmp	.+8      	; 0x24e <geld_Uitwerpen+0x5e>
+		case 2:
+			shiftWrite(0b00100000);
+ 246:	80 e2       	ldi	r24, 0x20	; 32
+ 248:	90 e0       	ldi	r25, 0x00	; 0
+ 24a:	0e 94 df 00 	call	0x1be	; 0x1be <shiftWrite>
+			break;
+	}
+	OCR1A=140; //180 graden
+ 24e:	e8 e8       	ldi	r30, 0x88	; 136
+ 250:	f0 e0       	ldi	r31, 0x00	; 0
+ 252:	8c e8       	ldi	r24, 0x8C	; 140
+ 254:	90 e0       	ldi	r25, 0x00	; 0
+ 256:	91 83       	std	Z+1, r25	; 0x01
+ 258:	80 83       	st	Z, r24
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+ 25a:	2f ef       	ldi	r18, 0xFF	; 255
+ 25c:	8f e5       	ldi	r24, 0x5F	; 95
+ 25e:	93 e0       	ldi	r25, 0x03	; 3
+ 260:	21 50       	subi	r18, 0x01	; 1
+ 262:	80 40       	sbci	r24, 0x00	; 0
+ 264:	90 40       	sbci	r25, 0x00	; 0
+ 266:	e1 f7       	brne	.-8      	; 0x260 <geld_Uitwerpen+0x70>
+ 268:	00 c0       	rjmp	.+0      	; 0x26a <geld_Uitwerpen+0x7a>
+ 26a:	00 00       	nop
+	_delay_ms(300); //Genoeg tijd om volledig uit te komen geven
+	OCR1A= 25; //0 graden
+ 26c:	89 e1       	ldi	r24, 0x19	; 25
+ 26e:	90 e0       	ldi	r25, 0x00	; 0
+ 270:	91 83       	std	Z+1, r25	; 0x01
+ 272:	80 83       	st	Z, r24
+ 274:	2f ef       	ldi	r18, 0xFF	; 255
+ 276:	8f e9       	ldi	r24, 0x9F	; 159
+ 278:	95 e0       	ldi	r25, 0x05	; 5
+ 27a:	21 50       	subi	r18, 0x01	; 1
+ 27c:	80 40       	sbci	r24, 0x00	; 0
+ 27e:	90 40       	sbci	r25, 0x00	; 0
+ 280:	e1 f7       	brne	.-8      	; 0x27a <geld_Uitwerpen+0x8a>
+ 282:	00 c0       	rjmp	.+0      	; 0x284 <geld_Uitwerpen+0x94>
+ 284:	00 00       	nop
+	_delay_ms(500); //Genoeg tijd om terug te keren geven
+	shiftWrite(0b00000000);
+ 286:	80 e0       	ldi	r24, 0x00	; 0
+ 288:	90 e0       	ldi	r25, 0x00	; 0
+ 28a:	0e 94 df 00 	call	0x1be	; 0x1be <shiftWrite>
+ 28e:	08 95       	ret
+
+00000290 <main>:
+
+int main(void)
+{
+	//LiquidCrystalDevice_t device = lq_init(0x27, 16, 2, LCD_5x8DOTS); // intialize 2-lines display
+	
+    DDRA &= ((1<<DDRA0)|(1<<DDRA1)|(1<<DDRA2)|(1<<DDRA3)|(1<<DDRA4)|(1<<DDRA5)); //INGANG DRUKKNOPPEN
+ 290:	81 b1       	in	r24, 0x01	; 1
+ 292:	8f 73       	andi	r24, 0x3F	; 63
+ 294:	81 b9       	out	0x01, r24	; 1
+    DDRD |= (1<<DDRD5);
+ 296:	8a b1       	in	r24, 0x0a	; 10
+ 298:	80 62       	ori	r24, 0x20	; 32
+ 29a:	8a b9       	out	0x0a, r24	; 10
+	servo_Init();
+ 29c:	0e 94 b3 00 	call	0x166	; 0x166 <servo_Init>
+	shift_Init();
+ 2a0:	0e 94 c7 00 	call	0x18e	; 0x18e <shift_Init>
+	USART_Init();
+ 2a4:	0e 94 5d 00 	call	0xba	; 0xba <USART_Init>
+	lq_setCursor(&device, 1, 0); // moving cursor to the next line
+	lq_print(&device, "Tiebe Declercq");
+*/
+    while (1) 
+    {
+		geld_Uitwerpen(5);
+ 2a8:	85 e0       	ldi	r24, 0x05	; 5
+ 2aa:	90 e0       	ldi	r25, 0x00	; 0
+ 2ac:	0e 94 f8 00 	call	0x1f0	; 0x1f0 <geld_Uitwerpen>
+		geld_Uitwerpen(10);
+ 2b0:	8a e0       	ldi	r24, 0x0A	; 10
+ 2b2:	90 e0       	ldi	r25, 0x00	; 0
+ 2b4:	0e 94 f8 00 	call	0x1f0	; 0x1f0 <geld_Uitwerpen>
+		geld_Uitwerpen(20);
+ 2b8:	84 e1       	ldi	r24, 0x14	; 20
+ 2ba:	90 e0       	ldi	r25, 0x00	; 0
+ 2bc:	0e 94 f8 00 	call	0x1f0	; 0x1f0 <geld_Uitwerpen>
+		geld_Uitwerpen(50);
+ 2c0:	82 e3       	ldi	r24, 0x32	; 50
+ 2c2:	90 e0       	ldi	r25, 0x00	; 0
+ 2c4:	0e 94 f8 00 	call	0x1f0	; 0x1f0 <geld_Uitwerpen>
+		geld_Uitwerpen(1);
+ 2c8:	81 e0       	ldi	r24, 0x01	; 1
+ 2ca:	90 e0       	ldi	r25, 0x00	; 0
+ 2cc:	0e 94 f8 00 	call	0x1f0	; 0x1f0 <geld_Uitwerpen>
+		geld_Uitwerpen(2);
+ 2d0:	82 e0       	ldi	r24, 0x02	; 2
+ 2d2:	90 e0       	ldi	r25, 0x00	; 0
+ 2d4:	0e 94 f8 00 	call	0x1f0	; 0x1f0 <geld_Uitwerpen>
+ 2d8:	e7 cf       	rjmp	.-50     	; 0x2a8 <main+0x18>
+
+000002da <dataVerwerken>:
+		}
+}
+
+void dataVerwerken(void){
+	
+	if(strstr(rx_buff, "s")) //Servo activeren S[nummer servo] = S5 = 5cent uitwerpen
+ 2da:	63 e7       	ldi	r22, 0x73	; 115
+ 2dc:	70 e0       	ldi	r23, 0x00	; 0
+ 2de:	88 e5       	ldi	r24, 0x58	; 88
+ 2e0:	91 e0       	ldi	r25, 0x01	; 1
+ 2e2:	0e 94 0a 02 	call	0x414	; 0x414 <strchr>
+ 2e6:	00 97       	sbiw	r24, 0x00	; 0
+ 2e8:	31 f0       	breq	.+12     	; 0x2f6 <dataVerwerken+0x1c>
+	{
+		char *numString = strstr(rx_buff, "s") + strlen("s");
+		int num = atoi(numString);
+ 2ea:	01 96       	adiw	r24, 0x01	; 1
+ 2ec:	0e 94 ec 01 	call	0x3d8	; 0x3d8 <atoi>
+		geld_Uitwerpen(num);
+ 2f0:	0e 94 f8 00 	call	0x1f0	; 0x1f0 <geld_Uitwerpen>
+ 2f4:	08 95       	ret
+	}
+	else if(strstr(rx_buff, "u")) //Geldbedrag uitwerpen U[156] = 1eur56cent
+ 2f6:	65 e7       	ldi	r22, 0x75	; 117
+ 2f8:	70 e0       	ldi	r23, 0x00	; 0
+ 2fa:	88 e5       	ldi	r24, 0x58	; 88
+ 2fc:	91 e0       	ldi	r25, 0x01	; 1
+ 2fe:	0e 94 0a 02 	call	0x414	; 0x414 <strchr>
+ 302:	00 97       	sbiw	r24, 0x00	; 0
+ 304:	31 f0       	breq	.+12     	; 0x312 <dataVerwerken+0x38>
+	{
+		char *numString = strstr(rx_buff, "u") + strlen("u");
+		int num = atoi(numString);
+ 306:	01 96       	adiw	r24, 0x01	; 1
+ 308:	0e 94 ec 01 	call	0x3d8	; 0x3d8 <atoi>
+		geld_Aantal_Uitwerpen(num);
+ 30c:	0e 94 92 00 	call	0x124	; 0x124 <geld_Aantal_Uitwerpen>
+ 310:	08 95       	ret
+	}
+	else if(strstr(rx_buff, "b")) //Buzzer als het 0 is af en 1 aan B[0]
+ 312:	62 e6       	ldi	r22, 0x62	; 98
+ 314:	70 e0       	ldi	r23, 0x00	; 0
+ 316:	88 e5       	ldi	r24, 0x58	; 88
+ 318:	91 e0       	ldi	r25, 0x01	; 1
+ 31a:	0e 94 0a 02 	call	0x414	; 0x414 <strchr>
+ 31e:	00 97       	sbiw	r24, 0x00	; 0
+ 320:	79 f0       	breq	.+30     	; 0x340 <dataVerwerken+0x66>
+	{
+		char *numString = strstr(rx_buff, "b") + strlen("b");
+		int num = atoi(numString);
+ 322:	01 96       	adiw	r24, 0x01	; 1
+ 324:	0e 94 ec 01 	call	0x3d8	; 0x3d8 <atoi>
+		if(num == 1){
+ 328:	01 97       	sbiw	r24, 0x01	; 1
+ 32a:	29 f4       	brne	.+10     	; 0x336 <dataVerwerken+0x5c>
+			//Bool buzzer op 1 zetten 
+			USART_Transmit_String("Buzzer aan");
+ 32c:	80 e4       	ldi	r24, 0x40	; 64
+ 32e:	91 e0       	ldi	r25, 0x01	; 1
+ 330:	0e 94 79 00 	call	0xf2	; 0xf2 <USART_Transmit_String>
+ 334:	08 95       	ret
+		}
+		else{
+			//Bool buzzer op 0 zetten
+			USART_Transmit_String("Buzzer uit");
+ 336:	8b e4       	ldi	r24, 0x4B	; 75
+ 338:	91 e0       	ldi	r25, 0x01	; 1
+ 33a:	0e 94 79 00 	call	0xf2	; 0xf2 <USART_Transmit_String>
+ 33e:	08 95       	ret
+		}
+	}
+	else if(strstr(rx_buff, "v")) //C# programma controleerd of er verbinding is
+ 340:	66 e7       	ldi	r22, 0x76	; 118
+ 342:	70 e0       	ldi	r23, 0x00	; 0
+ 344:	88 e5       	ldi	r24, 0x58	; 88
+ 346:	91 e0       	ldi	r25, 0x01	; 1
+ 348:	0e 94 0a 02 	call	0x414	; 0x414 <strchr>
+ 34c:	89 2b       	or	r24, r25
+ 34e:	21 f0       	breq	.+8      	; 0x358 <dataVerwerken+0x7e>
+	{
+		USART_Transmit_String("v");
+ 350:	86 e5       	ldi	r24, 0x56	; 86
+ 352:	91 e0       	ldi	r25, 0x01	; 1
+ 354:	0e 94 79 00 	call	0xf2	; 0xf2 <USART_Transmit_String>
+ 358:	08 95       	ret
+
+0000035a <__vector_20>:
+	//Wacht tot er een karakter is ontvangen
+	while(!(UCSR0A&(1<<RXC0))); //Wachten tot RXC0 == 1
+	return(UDR0); //Inhoud van UDR0 als terugkeerwaarde
+}
+
+ISR(USART0_RX_vect) { //Interrupt bij hoog flank van de rx 
+ 35a:	1f 92       	push	r1
+ 35c:	0f 92       	push	r0
+ 35e:	0f b6       	in	r0, 0x3f	; 63
+ 360:	0f 92       	push	r0
+ 362:	11 24       	eor	r1, r1
+ 364:	2f 93       	push	r18
+ 366:	3f 93       	push	r19
+ 368:	4f 93       	push	r20
+ 36a:	5f 93       	push	r21
+ 36c:	6f 93       	push	r22
+ 36e:	7f 93       	push	r23
+ 370:	8f 93       	push	r24
+ 372:	9f 93       	push	r25
+ 374:	af 93       	push	r26
+ 376:	bf 93       	push	r27
+ 378:	ef 93       	push	r30
+ 37a:	ff 93       	push	r31
+	static unsigned int pos = 1;
+	rx_buff[pos] = UDR0;
+ 37c:	80 91 00 01 	lds	r24, 0x0100	; 0x800100 <__DATA_REGION_ORIGIN__>
+ 380:	90 91 01 01 	lds	r25, 0x0101	; 0x800101 <__DATA_REGION_ORIGIN__+0x1>
+ 384:	20 91 c6 00 	lds	r18, 0x00C6	; 0x8000c6 <__TEXT_REGION_LENGTH__+0x7f80c6>
+ 388:	fc 01       	movw	r30, r24
+ 38a:	e8 5a       	subi	r30, 0xA8	; 168
+ 38c:	fe 4f       	sbci	r31, 0xFE	; 254
+ 38e:	20 83       	st	Z, r18
+	if(rx_buff[pos] == ' '){ //Einde van de data
+ 390:	20 32       	cpi	r18, 0x20	; 32
+ 392:	61 f4       	brne	.+24     	; 0x3ac <__vector_20+0x52>
+		rx_buff[pos]='\n';
+ 394:	fc 01       	movw	r30, r24
+ 396:	e8 5a       	subi	r30, 0xA8	; 168
+ 398:	fe 4f       	sbci	r31, 0xFE	; 254
+ 39a:	2a e0       	ldi	r18, 0x0A	; 10
+ 39c:	20 83       	st	Z, r18
+		pos = 0;
+ 39e:	10 92 01 01 	sts	0x0101, r1	; 0x800101 <__DATA_REGION_ORIGIN__+0x1>
+ 3a2:	10 92 00 01 	sts	0x0100, r1	; 0x800100 <__DATA_REGION_ORIGIN__>
+		dataVerwerken();
+ 3a6:	0e 94 6d 01 	call	0x2da	; 0x2da <dataVerwerken>
+ 3aa:	05 c0       	rjmp	.+10     	; 0x3b6 <__vector_20+0x5c>
+	}
+	else{
+		pos++;
+ 3ac:	01 96       	adiw	r24, 0x01	; 1
+ 3ae:	90 93 01 01 	sts	0x0101, r25	; 0x800101 <__DATA_REGION_ORIGIN__+0x1>
+ 3b2:	80 93 00 01 	sts	0x0100, r24	; 0x800100 <__DATA_REGION_ORIGIN__>
+		}
+}
+ 3b6:	ff 91       	pop	r31
+ 3b8:	ef 91       	pop	r30
+ 3ba:	bf 91       	pop	r27
+ 3bc:	af 91       	pop	r26
+ 3be:	9f 91       	pop	r25
+ 3c0:	8f 91       	pop	r24
+ 3c2:	7f 91       	pop	r23
+ 3c4:	6f 91       	pop	r22
+ 3c6:	5f 91       	pop	r21
+ 3c8:	4f 91       	pop	r20
+ 3ca:	3f 91       	pop	r19
+ 3cc:	2f 91       	pop	r18
+ 3ce:	0f 90       	pop	r0
+ 3d0:	0f be       	out	0x3f, r0	; 63
+ 3d2:	0f 90       	pop	r0
+ 3d4:	1f 90       	pop	r1
+ 3d6:	18 95       	reti
+
+000003d8 <atoi>:
+ 3d8:	fc 01       	movw	r30, r24
+ 3da:	88 27       	eor	r24, r24
+ 3dc:	99 27       	eor	r25, r25
+ 3de:	e8 94       	clt
+ 3e0:	21 91       	ld	r18, Z+
+ 3e2:	20 32       	cpi	r18, 0x20	; 32
+ 3e4:	e9 f3       	breq	.-6      	; 0x3e0 <atoi+0x8>
+ 3e6:	29 30       	cpi	r18, 0x09	; 9
+ 3e8:	10 f0       	brcs	.+4      	; 0x3ee <atoi+0x16>
+ 3ea:	2e 30       	cpi	r18, 0x0E	; 14
+ 3ec:	c8 f3       	brcs	.-14     	; 0x3e0 <atoi+0x8>
+ 3ee:	2b 32       	cpi	r18, 0x2B	; 43
+ 3f0:	41 f0       	breq	.+16     	; 0x402 <__EEPROM_REGION_LENGTH__+0x2>
+ 3f2:	2d 32       	cpi	r18, 0x2D	; 45
+ 3f4:	39 f4       	brne	.+14     	; 0x404 <__EEPROM_REGION_LENGTH__+0x4>
+ 3f6:	68 94       	set
+ 3f8:	04 c0       	rjmp	.+8      	; 0x402 <__EEPROM_REGION_LENGTH__+0x2>
+ 3fa:	0e 94 15 02 	call	0x42a	; 0x42a <__mulhi_const_10>
+ 3fe:	82 0f       	add	r24, r18
+ 400:	91 1d       	adc	r25, r1
+ 402:	21 91       	ld	r18, Z+
+ 404:	20 53       	subi	r18, 0x30	; 48
+ 406:	2a 30       	cpi	r18, 0x0A	; 10
+ 408:	c0 f3       	brcs	.-16     	; 0x3fa <atoi+0x22>
+ 40a:	1e f4       	brtc	.+6      	; 0x412 <__EEPROM_REGION_LENGTH__+0x12>
+ 40c:	90 95       	com	r25
+ 40e:	81 95       	neg	r24
+ 410:	9f 4f       	sbci	r25, 0xFF	; 255
+ 412:	08 95       	ret
+
+00000414 <strchr>:
+ 414:	fc 01       	movw	r30, r24
+ 416:	81 91       	ld	r24, Z+
+ 418:	86 17       	cp	r24, r22
+ 41a:	21 f0       	breq	.+8      	; 0x424 <strchr+0x10>
+ 41c:	88 23       	and	r24, r24
+ 41e:	d9 f7       	brne	.-10     	; 0x416 <strchr+0x2>
+ 420:	99 27       	eor	r25, r25
+ 422:	08 95       	ret
+ 424:	31 97       	sbiw	r30, 0x01	; 1
+ 426:	cf 01       	movw	r24, r30
+ 428:	08 95       	ret
+
+0000042a <__mulhi_const_10>:
+ 42a:	7a e0       	ldi	r23, 0x0A	; 10
+ 42c:	97 9f       	mul	r25, r23
+ 42e:	90 2d       	mov	r25, r0
+ 430:	87 9f       	mul	r24, r23
+ 432:	80 2d       	mov	r24, r0
+ 434:	91 0d       	add	r25, r1
+ 436:	11 24       	eor	r1, r1
+ 438:	08 95       	ret
+
+0000043a <_exit>:
+ 43a:	f8 94       	cli
+
+0000043c <__stop_program>:
+ 43c:	ff cf       	rjmp	.-2      	; 0x43c <__stop_program>

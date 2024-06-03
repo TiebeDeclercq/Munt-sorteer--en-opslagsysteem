@@ -1,0 +1,4852 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5abd6f99-542f-48de-b25d-ee71528a0914")
+	(paper "A5")
+	(title_block
+		(title "8 buttons")
+		(date "2023-12-28")
+		(rev "V1")
+		(company "Tiebe Declercq")
+	)
+	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x06_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Pin"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 49.53 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "013c6dbe-3048-4d68-9bf6-fed7ff2f098c")
+	)
+	(junction
+		(at 80.01 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f482f73-416d-4f6b-a3f2-0c57224c3d29")
+	)
+	(junction
+		(at 129.54 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59bd3439-df45-4fd5-8bb8-b752e9bb06ea")
+	)
+	(junction
+		(at 64.77 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aef8d2b-dd81-4b7b-8637-89e8aeee5968")
+	)
+	(junction
+		(at 113.03 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b05cda92-3e13-44f8-8d53-e97c205748f5")
+	)
+	(junction
+		(at 95.25 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbc0506f-e2da-4132-bb24-70bf58a0f95c")
+	)
+	(wire
+		(pts
+			(xy 64.77 78.74) (xy 64.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032a5853-9b84-4877-abe9-ff34646e8cca")
+	)
+	(wire
+		(pts
+			(xy 49.53 78.74) (xy 49.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f65d02-2705-46ca-831f-53596aeb0684")
+	)
+	(wire
+		(pts
+			(xy 91.44 46.99) (xy 91.44 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13cfdce4-357b-422c-a004-8bf150cf2fc7")
+	)
+	(wire
+		(pts
+			(xy 41.91 45.72) (xy 107.95 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1938688c-6f86-4784-8649-66de2387d336")
+	)
+	(wire
+		(pts
+			(xy 129.54 83.82) (xy 129.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a2f0c0a-04ac-46f4-a40c-3cd0b3a60cf4")
+	)
+	(wire
+		(pts
+			(xy 43.18 58.42) (xy 43.18 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24859d82-586d-4d3e-bfb9-1392ac580fda")
+	)
+	(wire
+		(pts
+			(xy 80.01 80.01) (xy 80.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e97972-27a8-4d30-847f-ca1cee7c49ed")
+	)
+	(wire
+		(pts
+			(xy 76.2 48.26) (xy 76.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28fce79f-56fa-4867-8d5f-e5b85bee4c58")
+	)
+	(wire
+		(pts
+			(xy 76.2 81.28) (xy 80.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f9c1637-b84b-4c75-94b2-0933ec5d198c")
+	)
+	(wire
+		(pts
+			(xy 41.91 66.04) (xy 34.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32592d67-f154-4c5b-8cc4-99d81b177501")
+	)
+	(wire
+		(pts
+			(xy 125.73 44.45) (xy 125.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3420edc4-5da6-404e-bdcd-d9bffcfb5dba")
+	)
+	(wire
+		(pts
+			(xy 34.29 53.34) (xy 40.64 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38bc3fe6-961f-4c06-9380-b5243fb8f4f5")
+	)
+	(wire
+		(pts
+			(xy 44.45 60.96) (xy 44.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e42e8d-7eba-4f0e-af96-c3b6c92e6538")
+	)
+	(wire
+		(pts
+			(xy 34.29 55.88) (xy 41.91 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44653a45-2590-4b75-9f1e-4fe543618478")
+	)
+	(wire
+		(pts
+			(xy 107.95 83.82) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4919b382-0c2b-4bdd-8221-97a53b0c9400")
+	)
+	(wire
+		(pts
+			(xy 95.25 68.58) (xy 95.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b08d724-bfd8-4f0d-abfd-03c626471268")
+	)
+	(wire
+		(pts
+			(xy 129.54 69.85) (xy 129.54 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b213d31-58bb-4066-aa03-2e24a0a42923")
+	)
+	(wire
+		(pts
+			(xy 34.29 58.42) (xy 43.18 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c821e5-6e3f-4fcd-8360-7f81b0b91eff")
+	)
+	(wire
+		(pts
+			(xy 43.18 46.99) (xy 91.44 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "539aa00d-19e2-494d-9cca-76a49e79b8e4")
+	)
+	(wire
+		(pts
+			(xy 45.72 49.53) (xy 60.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576eff30-9992-4af7-a848-f276e4c20f13")
+	)
+	(wire
+		(pts
+			(xy 40.64 44.45) (xy 125.73 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ada1fb7-430d-47dd-b6b8-01fb3a89f378")
+	)
+	(wire
+		(pts
+			(xy 95.25 82.55) (xy 95.25 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686b740b-b76a-4cf2-babe-be679bd74f51")
+	)
+	(wire
+		(pts
+			(xy 113.03 82.55) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7074780e-b3ce-4068-9b6b-b0cff629eab6")
+	)
+	(wire
+		(pts
+			(xy 80.01 67.31) (xy 80.01 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7171151b-62b3-4018-b0ec-36368276a3b6")
+	)
+	(wire
+		(pts
+			(xy 41.91 78.74) (xy 41.91 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fba36f-e93b-4495-a97c-fd14bbb04d5a")
+	)
+	(wire
+		(pts
+			(xy 44.45 48.26) (xy 76.2 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7720d257-04c2-4da0-9047-f00c8161c5b3")
+	)
+	(wire
+		(pts
+			(xy 34.29 35.56) (xy 35.56 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7934357e-db5f-4388-8d66-e28810fb0154")
+	)
+	(wire
+		(pts
+			(xy 113.03 60.96) (xy 113.03 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c24cb32-718d-433f-bfae-f32699a076e8")
+	)
+	(wire
+		(pts
+			(xy 113.03 83.82) (xy 113.03 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "808da197-98aa-450e-95cc-fc55c2994c68")
+	)
+	(wire
+		(pts
+			(xy 49.53 64.77) (xy 49.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817e5aa0-ff19-4e55-9535-0bfda53d7d53")
+	)
+	(wire
+		(pts
+			(xy 64.77 80.01) (xy 64.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88341dcd-3558-47f0-8bb7-e4b8010deecc")
+	)
+	(wire
+		(pts
+			(xy 125.73 83.82) (xy 129.54 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c78589-8e4f-4242-bb6d-34c70af6d439")
+	)
+	(wire
+		(pts
+			(xy 95.25 81.28) (xy 95.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bbe8654-602f-4a32-bad9-fe00939f7c01")
+	)
+	(wire
+		(pts
+			(xy 41.91 55.88) (xy 41.91 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e871a89-1488-4e83-921d-506172e32ea7")
+	)
+	(wire
+		(pts
+			(xy 80.01 58.42) (xy 80.01 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a235ec02-64f1-4690-acb3-6dad6a0359ff")
+	)
+	(wire
+		(pts
+			(xy 95.25 59.69) (xy 95.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b8cf4b-ecf2-4589-ad09-bb2e59421326")
+	)
+	(wire
+		(pts
+			(xy 34.29 60.96) (xy 44.45 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a430b9f4-1f81-4687-9b95-e817a072ab77")
+	)
+	(wire
+		(pts
+			(xy 60.96 80.01) (xy 64.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45c65ec-fb97-4aa4-92e3-f58b9bef320e")
+	)
+	(wire
+		(pts
+			(xy 60.96 49.53) (xy 60.96 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa310606-355f-467a-b1d0-01940bf0473a")
+	)
+	(wire
+		(pts
+			(xy 49.53 77.47) (xy 49.53 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59d77e5-8539-4dde-90c4-79490a61323e")
+	)
+	(wire
+		(pts
+			(xy 64.77 66.04) (xy 64.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ff3eae-2151-4731-a949-c241c72f4a2d")
+	)
+	(wire
+		(pts
+			(xy 80.01 81.28) (xy 80.01 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3e345a-0052-4474-8650-c3eca56cf8b2")
+	)
+	(wire
+		(pts
+			(xy 64.77 57.15) (xy 64.77 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1eaa314-7352-49e4-9b44-7f639f5d4111")
+	)
+	(wire
+		(pts
+			(xy 129.54 82.55) (xy 129.54 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c53790-7ea5-41e9-8ff0-d10b7187420a")
+	)
+	(wire
+		(pts
+			(xy 45.72 63.5) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf36ede8-682f-4c03-b8e2-586b32224eaa")
+	)
+	(wire
+		(pts
+			(xy 107.95 45.72) (xy 107.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47e8e7f-aabe-4a59-ad3a-0f202b449a78")
+	)
+	(wire
+		(pts
+			(xy 91.44 82.55) (xy 95.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3da842c-7b6e-49df-a292-f7537e44af77")
+	)
+	(wire
+		(pts
+			(xy 129.54 60.96) (xy 129.54 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ff2f8d-b7aa-4dff-97fb-c6911c8180f4")
+	)
+	(wire
+		(pts
+			(xy 49.53 55.88) (xy 49.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1c3aab-bb11-43c7-9b0f-5a5146eb392a")
+	)
+	(wire
+		(pts
+			(xy 113.03 69.85) (xy 113.03 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0991da6-b965-49e8-9ee6-2170f91a1ab6")
+	)
+	(wire
+		(pts
+			(xy 34.29 63.5) (xy 45.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2358357-1155-4032-b55c-0708b4e2f393")
+	)
+	(wire
+		(pts
+			(xy 40.64 53.34) (xy 40.64 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23f9074-dc3e-46f6-8e9a-d79e73a7b661")
+	)
+	(wire
+		(pts
+			(xy 49.53 78.74) (xy 41.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f90571d5-749b-4993-aff3-e82f9fd2b6f2")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 95.25 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06542a9f-f7f5-4109-a7ff-0652e2e92e29")
+		(property "Reference" "SW7"
+			(at 96.52 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 96.52 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4df4b33-ad65-4b85-bc48-739fd8dc3045")
+		)
+		(pin "2"
+			(uuid "1c642382-ea1f-4b43-a140-f3c96f451fc3")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 80.01 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e3a3b10-701c-4f80-a956-1a7da90c62fe")
+		(property "Reference" "SW6"
+			(at 81.28 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 81.28 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0db53d9-282d-4bc1-a8fe-5be91bbf3c7b")
+		)
+		(pin "2"
+			(uuid "8e0a2b01-3952-4dc2-97d1-c560ec00ca61")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 30.48 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f2aee61-1298-49f8-8fa3-d54559bfb46a")
+		(property "Reference" "H2"
+			(at 33.02 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 33.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 30.48 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "161166da-b3aa-492b-9402-80d57124b6ec")
+		(property "Reference" "R46"
+			(at 97.79 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 97.79 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 93.472 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc569bb7-f0dc-4378-9ae5-dc8ccb8d6479")
+		)
+		(pin "2"
+			(uuid "9b9c2cbf-f333-4622-b556-a1e613762ab0")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 49.53 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b8826b3-2238-44c3-9292-32880518170b")
+		(property "Reference" "#PWR086"
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 49.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3f4fcd6-7aff-485a-91e0-205ec48f06b0")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 129.54 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21d3e5d4-9153-4656-9e2f-0cea64f51352")
+		(property "Reference" "#PWR097"
+			(at 129.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 129.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dcb4b4a-e7e4-40ea-8ed2-06f561c4be88")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 49.53 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b7c8f5b-1133-4538-a79a-932089a3933b")
+		(property "Reference" "SW4"
+			(at 50.8 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 50.8 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8dada5f-cc7c-43e1-8efd-8a7ddc0a8d71")
+		)
+		(pin "2"
+			(uuid "d93043c8-d3fa-4bf8-82d4-bf7f57f0f9be")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.01 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f31179a-cec9-47ff-8bf0-b46c391c0ca3")
+		(property "Reference" "R45"
+			(at 74.93 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10KΩ"
+			(at 77.47 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 78.232 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c64ab1e3-bbb9-4e1d-8fbc-fee09ec9958b")
+		)
+		(pin "2"
+			(uuid "1247565e-79e8-4c5d-9c57-9500b995a03e")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c6e519a-3684-45d8-9b79-d380f0ad1631")
+		(property "Reference" "#PWR096"
+			(at 113.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a351bca9-0d09-463c-9430-c237afed8294")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 129.54 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "527d4970-5036-4c82-8f55-81ec100f8939")
+		(property "Reference" "SW9"
+			(at 130.81 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 130.81 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 124.46 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caed5ff5-27bd-4c35-8e41-d59d1782082f")
+		)
+		(pin "2"
+			(uuid "be5a9307-593c-4f0d-9ef6-de26d70e03a5")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "542a7b61-16ad-4aa7-9b38-bcea3f5c5bc4")
+		(property "Reference" "R49"
+			(at 107.95 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10KΩ"
+			(at 110.49 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 111.252 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d82c188-e229-48d4-8a6b-1749372ab02a")
+		)
+		(pin "2"
+			(uuid "ffab0fdc-d9b4-4b0b-9d04-ba16a6980324")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "549595fc-7eb7-4ed4-9f45-58e2327a4824")
+		(property "Reference" "R40"
+			(at 44.45 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10KΩ"
+			(at 46.99 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 47.752 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0907636-27ef-4818-8bd3-da1976824623")
+		)
+		(pin "2"
+			(uuid "7aa89ed7-c79d-465c-9421-845342d3fc29")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d5d2401-b3bb-436a-8b4c-eda27b319cd6")
+		(property "Reference" "R43"
+			(at 59.69 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10KΩ"
+			(at 62.23 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 62.992 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eacc5f8a-7217-4e8c-9350-213e183e8b66")
+		)
+		(pin "2"
+			(uuid "f20980ee-0cbe-473d-aafd-895902accdc5")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 113.03 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64b0f6de-40e0-4950-b2ce-c930c803b924")
+		(property "Reference" "SW8"
+			(at 114.3 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 114.3 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49514380-b6dd-4444-b2f8-c9c2b586eb61")
+		)
+		(pin "2"
+			(uuid "6a8aad10-ef91-4a25-892e-2e049174efea")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65dc74a9-bcfa-4f80-98a0-25638fd80f36")
+		(property "Reference" "#PWR098"
+			(at 129.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9353ef1-c2ea-4052-b9fb-93ecb40c677c")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c3ec585-51b8-40c2-957f-267c0fc2bb91")
+		(property "Reference" "#PWR087"
+			(at 35.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4095291c-198b-48f5-b98f-6e702115603c")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 64.77 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76ef6d98-faa8-4f4e-bcd1-968bfd2173e7")
+		(property "Reference" "SW5"
+			(at 66.04 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 66.04 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 59.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc30ce8f-1e6e-4076-a63f-f48458720ca5")
+		)
+		(pin "2"
+			(uuid "d178235a-3537-48bf-9af6-8ca6c73e26da")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 30.48 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80982407-cf51-40cf-815e-30fa03bf5f92")
+		(property "Reference" "H1"
+			(at 33.02 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 33.02 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 30.48 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 95.25 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81260053-7312-49e3-bf54-fe50eba26989")
+		(property "Reference" "#PWR093"
+			(at 95.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 95.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c91c2ec-06b6-47d0-8e42-a72665caffd4")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84a9112e-f252-4aa8-9b18-0debb2c145eb")
+		(property "Reference" "R47"
+			(at 90.17 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10KΩ"
+			(at 92.71 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 93.472 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "285f00c0-b7b9-4330-9025-4d0965e24b37")
+		)
+		(pin "2"
+			(uuid "c8b80307-da13-41da-8e65-be223f84a4a2")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c289eb5-7478-4354-a010-b5dea813faa5")
+		(property "Reference" "#PWR092"
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4f047a3-db9d-4727-be65-9937a3a3050b")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 29.21 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3d9c63e-59e8-4d10-bd11-752257899cd7")
+		(property "Reference" "J2"
+			(at 29.845 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 29.845 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "cbfdf4e9-5bb0-46e2-acc4-fb86e85a99f2")
+		)
+		(pin "2"
+			(uuid "fe0b0f89-3f47-4677-b868-8392db281ea5")
+		)
+		(pin "5"
+			(uuid "2b7942f9-54e9-408c-a573-8364adc68ef8")
+		)
+		(pin "4"
+			(uuid "27d59fac-5d2f-42ea-bbc7-0440253ad853")
+		)
+		(pin "3"
+			(uuid "f9df562f-f297-466e-b5e3-fd472077ab2b")
+		)
+		(pin "1"
+			(uuid "adb1aa97-3db4-4b17-9f55-4a578826583f")
+		)
+		(instances
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aad00b44-8c3a-4bd7-90d3-adb37de022bd")
+		(property "Reference" "#PWR087"
+			(at 49.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bbe9663-76c4-4363-a4d3-8e04b54986f4")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 34.29 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc985d62-74fe-45ce-90f2-46dffc2b1439")
+		(property "Reference" "#PWR086"
+			(at 30.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 38.1 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fcfb83c-8235-490d-bfaf-bce73c2486c7")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfc7ec72-81d5-4073-92f5-c39fdf39a5d2")
+		(property "Reference" "R50"
+			(at 132.08 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 132.08 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127.762 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51842fd2-b5fc-42fc-bd81-25c5a746e0c0")
+		)
+		(pin "2"
+			(uuid "4551af43-4843-4600-bf82-75b148a0d833")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5d663bb-a56a-4927-96d0-2e6813f4f6ef")
+		(property "Reference" "R39"
+			(at 52.07 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 52.07 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 47.752 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "346d7083-ae9f-4a0e-a8e2-1336db64ab09")
+		)
+		(pin "2"
+			(uuid "33344120-85bb-421a-b90d-049395055d2d")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce05438f-025d-4f2b-9501-a1e099f06cbd")
+		(property "Reference" "#PWR090"
+			(at 64.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0dc7a3a-f3d7-4dad-bea6-4609f3cb935f")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf933e02-cd2f-4043-86cb-db4f0c461efb")
+		(property "Reference" "#PWR094"
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5c3af8a-1fe8-4a84-9e1a-b87d2b299ddf")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 64.77 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0d454bb-a3db-471c-ab04-44cc9b9174ff")
+		(property "Reference" "#PWR089"
+			(at 64.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67ccaec6-7a36-469f-b7e4-b8e7847c5dfd")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d483bf00-1252-477f-b5f6-04192d3b13cb")
+		(property "Reference" "R42"
+			(at 67.31 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 67.31 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 62.992 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3dd0c49-d42d-49b5-b7f7-85885fa3484f")
+		)
+		(pin "2"
+			(uuid "29774350-92b4-4620-9f2a-de02face12c6")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 29.21 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dad144e4-713e-4929-ae01-c5e83d5892b3")
+		(property "Reference" "J1"
+			(at 29.845 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 29.845 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79e64da2-4b17-4feb-8412-9ce5acd3d04d")
+		)
+		(pin "1"
+			(uuid "7e940ccc-8920-4918-8d42-9afc01fd40d4")
+		)
+		(instances
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec097522-8f51-4bbf-95ab-323d508ebd10")
+		(property "Reference" "R48"
+			(at 115.57 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 115.57 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 111.252 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b15e3646-dfbf-48fa-a39d-c2e22d6b0e99")
+		)
+		(pin "2"
+			(uuid "218daada-54a4-4b03-a989-2e1a17d6f6f7")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 113.03 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0970238-c2f2-481f-ad11-38c52e4b53d2")
+		(property "Reference" "#PWR095"
+			(at 113.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 113.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de2d6426-1b26-4e61-8b64-7bfea5a99a3c")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 80.01 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1d686df-9b33-4d6d-a0ba-4a56205ebf9a")
+		(property "Reference" "#PWR091"
+			(at 80.01 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 80.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83db701b-211d-4cf4-8447-9f3781289ec6")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3b35894-42d0-44b1-812d-41a1e227e096")
+		(property "Reference" "R51"
+			(at 124.46 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10KΩ"
+			(at 127 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127.762 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b04504d4-5247-408c-ac1d-73f645ffc6d9")
+		)
+		(pin "2"
+			(uuid "ece4560d-35d3-4b97-9bf3-94c1e5d6a659")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.01 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f97e7c4f-a6d8-46a1-b76e-0d559261a6d6")
+		(property "Reference" "R44"
+			(at 82.55 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 82.55 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 78.232 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21123399-dbe7-43d2-945d-75e02f6330e7")
+		)
+		(pin "2"
+			(uuid "c6a34c3b-2aed-4344-a2a4-7947ce704b77")
+		)
+		(instances
+			(project "Munt-sorteer en telsysteem"
+				(path "/2a811797-680f-4359-8182-530e88a9b50b"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+			(project "GipAtmega328p"
+				(path "/3a6e8008-240b-4bee-9874-8b9a43ade1bc"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+			(project "ButtonsPCB"
+				(path "/5abd6f99-542f-48de-b25d-ee71528a0914"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "gipPCB"
+				(path "/ba19b966-0983-4ef0-a09b-bb4ec71cbc5b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "PCBatmega324p"
+				(path "/cb685dd8-9700-49ce-9a32-4c916c4c34dd"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
