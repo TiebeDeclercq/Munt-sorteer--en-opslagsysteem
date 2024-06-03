@@ -28,11 +28,11 @@ This is the general software to control the coinsorting system for simply storin
 <p float="left">
   <a href="https://play.google.com/store/apps/details?id=com.Ti3b3.Coin_sorting_and_storage_system"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200em"></img></a>
   <a href="https://l.messenger.com/l.php?u=http%3A%2F%2Fitunes.apple.com%2Fapp%2Fid6480136312&h=AT0W5dLV4-_HWo6Hpzhd1CNAs4ooRaiCPJcBq9KRZzaV246Ko3VcdnYeWSVa93cHaYDz-uc7uD9_STlt7n5DoX44x320C2RBlRl9Fa9wpZAEIEF3_ePi8t-rp98hANBxP2WmDY1l13mO-Vc"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png" width="200em"></img></a>
-  <a href="https://ti3b3.itch.io/coin-sorting-and-storage-system-flappy-bird"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Get_it_from_Microsoft_Badge.svg/2560px-Get_it_from_Microsoft_Badge.svg.png" width="200em"></img></a>
+  <a href="https://apps.microsoft.com/detail/9ndc85wl55n7?hl=nl-nl&gl=BE"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Get_it_from_Microsoft_Badge.svg/2560px-Get_it_from_Microsoft_Badge.svg.png" width="200em"></img></a>
 </p>
 
 This is sofware/game to play flappy bird but you can play with multiple people and compete against eatchother 
 
-<a href="https://apps.microsoft.com/detail/9ndc85wl55n7?hl=nl-nl&gl=BE"><img src="https://primary.jwwb.nl/public/t/b/q/temp-cjljeydxrjkaxstzeomi/badge.svg" width="200em"></img></a>
+<a href="https://ti3b3.itch.io/coin-sorting-and-storage-system-flappy-bird"><img src="https://primary.jwwb.nl/public/t/b/q/temp-cjljeydxrjkaxstzeomi/badge.svg" width="200em"></img></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
